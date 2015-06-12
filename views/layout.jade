@@ -12,9 +12,9 @@ html.no-js
 
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
     link(rel='stylesheet', href='css/master.css')
-  body(style='background:#3A3E47', data-spy='scroll', data-target='.navbar-example')
+  body(data-spy='scroll', data-target='.navbar-example')
 
-    nav.navbar.navbar-inverse.navbar-fixed-top.navbar-example(style='background:rgba(255,255,255,0.9)', role='navigation')
+    nav.navbar.navbar-inverse.navbar-fixed-top.navbar-example(role='navigation')
       .navbar-header
         button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
           span.sr-only Toggle navigation
@@ -24,13 +24,13 @@ html.no-js
       #bs-example-navbar-collapse-1.collapse.navbar-collapse
         ul.nav.navbar-nav
           li
-            a(href='#home', style='color:#C4C4C4') Home
+            a(href='#home') Home
           li
-            a(href='#projects', style='color:#C4C4C4') Projects
+            a(href='#projects') Projects
           li
-            a(href='#about', style='color:#C4C4C4') About
+            a(href='#about') About
           li
-            a(href='#contact', style='color:#C4C4C4') Contact
+            a(href='#contact') Contact
     #home.parallax
       .txt.right
         | Nick
@@ -63,7 +63,7 @@ html.no-js
       .txt.left.sub
         | Using modern web development frameworks such as
         br
-        | Ruby on Rails, AngularJS, NodeJS…
+        | Ruby on Rails, AngularJS, NodeJS
     .content.right
       h2
         a(href='http://www.datmusicdoe.com', target='_blank') Dat Music Doe
